@@ -1,0 +1,10 @@
+:root{--ui:"Segoe UI","Selawik","Noto Sans",Tahoma,sans-serif;--ink:#1b2a3d;--blue:#1c4a8c;--line:#bcc8d8;--sbw:212px;color-scheme:light}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;overflow:hidden}
+body{font:12px/1.45 var(--ui);color:var(--ink);background:#021a22 url(../../assets/wallpaper.jpg) center/cover no-repeat}
+button,input,a{font:inherit}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid #3b9cf0;outline-offset:1px}
+.msg{margin:0;padding:18px;color:#4a5b70}
+u{display:inline-block;width:8px;height:8px;margin-right:4px;border-radius:50%}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+@media(max-width:760px){:root{--sbw:0px}}

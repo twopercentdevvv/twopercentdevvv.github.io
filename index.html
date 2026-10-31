@@ -1,21 +1,70 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>twopercentdevvv's site</title>
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="twopercentdevvv’s website">
-  <meta property="og:description" content="Hello world!">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200">
-  <meta property="og:url" content="https://faggot.eu.cc /">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="twopercentdevvv’s website">
-  <meta name="twitter:description" content="Hello world!">
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>twopercentdevvv's site</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="twopercentdev’s website <3">
+<meta property="og:description" content="my socials, my repos and my posts !!">
+<meta property="og:image" content="https://faggot.eu.cc/assets/embed.jpg">
+<meta property="og:url" content="https://faggot.eu.cc/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="twopercentdev’s website <3">
+<meta name="twitter:description" content="my socials, my repos and my posts !!">
+<meta name="twitter:image" content="https://faggot.eu.cc/assets/embed.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base/base.css">
+<link rel="stylesheet" href="css/shell/window.css">
+<link rel="stylesheet" href="css/shell/sidebar.css">
+<link rel="stylesheet" href="css/shell/taskbar.css">
+<link rel="stylesheet" href="css/apps/explorer.css">
+<link rel="stylesheet" href="css/apps/repo.css">
+<link rel="stylesheet" href="css/apps/posts.css">
 </head>
 <body>
-  <h1>Hello world!</h1>
+<div id="desk"></div>
+<div id="start" hidden>
+<div class="sm-h"><img id="sav" src="assets/icons/user.png" alt=""><b id="sun"></b></div>
+<div class="sm-b">
+<div class="sm-l">
+<ul>
+<li><button data-o="p"><img src="assets/icons/folder.png" alt=""><span><b>Projects</b><small>Browse repositories</small></span></button></li>
+<li><button data-o="n"><img src="assets/icons/posts.png" alt=""><span><b>Posts</b><small>Latest updates</small></span></button></li>
+</ul>
+<hr>
+<ul>
+<li><button data-o="s"><img src="assets/icons/clock.png" alt=""><span>Sidebar</span></button></li>
+</ul>
+<label class="sm-s"><input id="ss" type="search" placeholder="Start Search" autocomplete="off" aria-label="Search projects"></label>
+</div>
+<div class="sm-r">
+<a id="gh" target="_blank" rel="noopener"><img src="assets/icons/globe.png" alt=""><span>GitHub profile</span></a>
+<a id="gr2" target="_blank" rel="noopener"><img src="assets/icons/repos.png" alt=""><span>Repositories</span></a>
+<a id="gs" target="_blank" rel="noopener"><img src="assets/icons/star.png" alt=""><span>Stars</span></a>
+</div>
+</div>
+<div class="sm-f"><button data-o="l"><img src="assets/icons/key.png" alt="">Log Off</button><button data-o="r"><img src="assets/icons/restart.png" alt="">Restart</button></div>
+</div>
+<div id="bar">
+<button id="orb" aria-label="Start menu"><img src="assets/icons/flag.png" alt="">start</button>
+<div id="tasks"></div>
+<button id="sbt" aria-label="Sidebar">Sidebar</button>
+<div id="tray"><span id="clk"></span></div>
+</div>
+<script src="js/core/config.js"></script>
+<script src="js/core/util.js"></script>
+<script src="js/data/icons.js"></script>
+<script src="js/core/github.js"></script>
+<script src="js/shell/windows.js"></script>
+<script src="js/apps/projects.js"></script>
+<script src="js/apps/repo.js"></script>
+<script src="js/widgets/discord.js"></script>
+<script src="js/apps/posts.js"></script>
+<script src="js/shell/sidebar.js"></script>
+<script src="js/shell/taskbar.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
